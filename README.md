@@ -48,3 +48,9 @@ For each labelmap it is checked if the left atrial appendage touches the side of
 - `all_segmentations_id.txt` : Contains the 998 image ids of the computed label maps
 - `all_full_laa_segmentations_id.txt` : Contains the 685 image ids of label maps with complete LAAs (that do not touches the scan side)
 
+## Supplied processing scripts
+
+We supply a set of processing scripts, to easy future use of the data. They are located in the `scripts` sub-folder.
+
+- **stacom2025_extract_surfaces.py** : Extracts the surfaces of all complete left atrial appendages in the dataset. The surfaces are stored as VTK files. To use this script, you should change the folder names in the script to point where you have unpacked the data.
+
