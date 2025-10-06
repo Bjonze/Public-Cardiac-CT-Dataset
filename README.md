@@ -15,8 +15,8 @@ The main page for the dataset is:
 https://github.com/Bjonze/Public-Cardiac-CT-Dataset
 
 It contains label maps computed for the public ImageCAS dataset:
-https://www.kaggle.com/datasets/xiaoweixumedicalai/imagecas
-https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT
+- https://www.kaggle.com/datasets/xiaoweixumedicalai/imagecas
+- https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT
 
 ## Download the data
 
@@ -26,7 +26,7 @@ The data can be downloaded as a zip file [here](https://people.compute.dtu.dk/ra
 
 For each scan, the following labels are computed:
 
-- 0 : **Background***
+- 0 : **Background**
 - 1 : **Myocardium** : The muscle tissue surrounding the left ventricle blood pool
 - 2 : **LA** : The left atrium blood pool
 - 3 : **LV** : The left ventricle blood pool including the papilary muscles and trabeculation
@@ -45,6 +45,6 @@ The labelmaps are computed on the entire ImageCAS dataset, but we found that sca
 
 For each labelmap it is checked if the left atrial appendage touches the side of the scan due to a limited scan field-of-view. There are two file lists with image ids:
 
-- all_segmentations_id.txt : Contains the 998 image ids of the computed label maps
-- all_full_laa_segmentations_id.txt : Contains the 685 image ids of label maps with complete LAAs (that do not touches the scan side)
+- `all_segmentations_id.txt` : Contains the 998 image ids of the computed label maps
+- `all_full_laa_segmentations_id.txt` : Contains the 685 image ids of label maps with complete LAAs (that do not touches the scan side)
 
