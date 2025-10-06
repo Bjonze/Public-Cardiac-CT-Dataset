@@ -1,6 +1,6 @@
 # STACOM2025---A-Public-Cardiac-CT-Dataset-Featuring-the-Left-Atrial-Appendage
 
-Official GitHub repo for the article "A Public Cardiac CT Dataset Featuring the Left Atrial Appendage" published at the STACOM 2025 MICCAI workshop. 
+Official GitHub repo for the article "A Public Cardiac CT Dataset Featuring the Left Atrial Appendage" published at the [STACOM 2025 MICCAI workshop.](https://stacom.github.io/stacom2025/) 
 
 ## Introduction
 This is the data described in the publication (please cite this article if you use the data):
