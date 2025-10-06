@@ -50,11 +50,11 @@ For each labelmap it is checked if the left atrial appendage touches the side of
 
 ## Supplied processing scripts
 
-We supply a set of processing scripts, to easy future use of the data. They are located in the `scripts` sub-folder.
+We supply a set of processing scripts, to easy future use of the data. They are located in the `scripts` sub-folder. To use the scripts, you should change the folder names in the scripts to point where you have unpacked the data.
 
 ### `stacom2025_extract_surfaces.py`
 
-Extracts the surfaces of all complete left atrial appendages in the dataset. The surfaces are stored as VTK files. To use this script, you should change the folder names in the script to point where you have unpacked the data.
+Extracts the surfaces of all complete left atrial appendages in the dataset. The surfaces are stored as VTK files. 
 
 ### `stacom2025_compute_shape_descriptors.py`
 
