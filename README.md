@@ -52,5 +52,26 @@ For each labelmap it is checked if the left atrial appendage touches the side of
 
 We supply a set of processing scripts, to easy future use of the data. They are located in the `scripts` sub-folder.
 
-- **stacom2025_extract_surfaces.py** : Extracts the surfaces of all complete left atrial appendages in the dataset. The surfaces are stored as VTK files. To use this script, you should change the folder names in the script to point where you have unpacked the data.
+### `stacom2025_extract_surfaces.py`
 
+Extracts the surfaces of all complete left atrial appendages in the dataset. The surfaces are stored as VTK files. To use this script, you should change the folder names in the script to point where you have unpacked the data.
+
+### `stacom2025_compute_shape_descriptors.py`
+
+Computes a set of 3D shape descriptors based on the LAA surfaces extraced using `stacom2025_extract_surfaces.py`. The surface descriptors are currently:
+
+- volume: Volume of the LAA (mm^3)
+- surface area: Area of the surface of the LAA (mm^2)
+- Normalized shape index as defined in the [VTK documentation](https://vtk.org/doc/nightly/html/classvtkMassProperties.html#details)
+- Surface to volume ratio: Surface area divided by the volume
+- Major axis length: The length of the first eigenvector computed by doing a PCA on the vertices of the mesh
+- Minor axis length: The length of the second eigenvector computed by doing a PCA on the vertices of the mesh
+- Least axis length: The length of the third eigenvector computed by doing a PCA on the vertices of the mesh
+- [Elongation](https://pyradiomics.readthedocs.io/en/latest/features.html#radiomics.shape.RadiomicsShape.getElongationFeatureValue): The minor axis length divided by the major axis length
+- [Flatness](https://pyradiomics.readthedocs.io/en/latest/features.html#radiomics.shape.RadiomicsShape.getFlatnessFeatureValue): The least axis length divided by the major axis length
+
+The computed features are both stored as individual JSON files per scan and as a combined CSV file with all features for all scans.
+
+### `stacom2025_explore_shape_descriptors.py`
+
+Do a simple principal component analysis (PCA) explorative analysis of the computed shapes descriptors from `stacom2025_compute_shape_descriptors.py`.
