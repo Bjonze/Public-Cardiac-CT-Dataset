@@ -22,7 +22,7 @@ It contains label maps computed for the public ImageCAS dataset:
 
 The segmentation data can be downloaded as a zip file [here](https://people.compute.dtu.dk/rapa/STACOM2025/ImageCAS-STACOM2025-02-10-2025.zip) (576 MB)
 
-The original CT scans should be downloaded fromt the ImageCAS archives listed above.
+The original CT scans should be downloaded from the ImageCAS archives listed above.
 
 ## Data description
 
