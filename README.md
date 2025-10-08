@@ -28,7 +28,18 @@ Springer 2025
 
 The article can be found here: [![arXiv](https://img.shields.io/badge/arXiv-2510.06090-b31b1b.svg)](https://arxiv.org/abs/2510.06090)
 
-Please cite this article if you use the data
+Please cite this article if you use the data:
+
+```
+@inproceedings{Hansen2025LAA,
+  title       = {A Public Cardiac CT Dataset Featuring the Left Atrial Appendage},
+  author      = {Hansen, Bj{\o}rn and Pedersen, Jonas and Kofoed, Klaus F. and Camara, Oscar and Paulsen, Rasmus R. and S{\o}rensen, Kristine},
+  booktitle   = {Statistical Atlases and Computational Modeling of the Heart (STACOM), MICCAI Workshop},
+  year        = {2025},
+  publisher   = {Springer},
+  url         = {https://arxiv.org/abs/2510.06090}
+}
+```
 
 ## Download
 **ImageCAS CCTA volumes** can be downloaded *here*: [![Kaggle: ImageCAS](https://img.shields.io/badge/Kaggle-ImageCAS-20BEFF?logo=kaggle&logoColor=white&style=flat)](https://www.kaggle.com/datasets/xiaoweixumedicalai/imagecas). We refer to the ImageCAS GitHub: [![GitHub: ImageCAS Repository](https://img.shields.io/badge/GitHub-ImageCAS%20Repository-181717?logo=github&logoColor=white&style=flat)](https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT)
