@@ -45,6 +45,8 @@ Please cite this article if you use the data:
 ```
 
 ## Download
+**NOTE:** If you just want to do LAA shape analysis, you just need to download the segmentation data. See the scripts described below on how to get started on the shape analysis.
+
 **ImageCAS CCTA volumes** can be downloaded *here*: [![Kaggle: ImageCAS](https://img.shields.io/badge/Kaggle-ImageCAS-20BEFF?logo=kaggle&logoColor=white&style=flat)](https://www.kaggle.com/datasets/xiaoweixumedicalai/imagecas). We refer to the ImageCAS GitHub: [![GitHub: ImageCAS Repository](https://img.shields.io/badge/GitHub-ImageCAS%20Repository-181717?logo=github&logoColor=white&style=flat)](https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT)
 
 **Segmentation data** can be downloaded as a zip file *here*: [![Data](https://img.shields.io/badge/Download-ImageCAS%20Labels-2a9d8f)](https://people.compute.dtu.dk/rapa/STACOM2025/ImageCAS-STACOM2025-02-10-2025.zip) (576 MB)
