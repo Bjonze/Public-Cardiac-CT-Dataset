@@ -18,7 +18,7 @@ Official GitHub repo for the article "A Public Cardiac CT Dataset Featuring the 
 - [Visualization](#visualization)
 
 ## Introduction
-This is the data described in the publication (please cite this article if you use the data):
+This is the data described in the publication:
 
 *Bjørn Hansen, Jonas Pedersen, Klaus F. Kofoed, Oscar Camara, Rasmus R. Paulsen and Kristine Sørensen.*
 **A Public Cardiac CT Dataset Featuring the Left Atrial Appendage.**
@@ -27,9 +27,7 @@ MICCAI workshop on The Statistical Atlases and Computational Modeling of the Hea
 Springer 2025
 
 The article can be found here: [![arXiv](https://img.shields.io/badge/arXiv-2510.06090-b31b1b.svg)](https://arxiv.org/abs/2510.06090)
-
-The main page for the dataset is:
-https://github.com/Bjonze/Public-Cardiac-CT-Dataset
+Please cite this article if you use the data
 
 ## Download
 **ImageCAS CCTA volumes** can be downloaded *here*: [![Kaggle: ImageCAS](https://img.shields.io/badge/Kaggle-ImageCAS-20BEFF?logo=kaggle&logoColor=white&style=flat)](https://www.kaggle.com/datasets/xiaoweixumedicalai/imagecas). We refer to the ImageCAS GitHub: [![GitHub: ImageCAS Repository](https://img.shields.io/badge/GitHub-ImageCAS%20Repository-181717?logo=github&logoColor=white&style=flat)](https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT)
