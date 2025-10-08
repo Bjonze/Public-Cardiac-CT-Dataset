@@ -16,6 +16,7 @@ Official GitHub repo for the article "A Public Cardiac CT Dataset Featuring the 
 - [Full vs. partial LAAs](#full-and-partial-left-atrial-appendages)
 - [Scripts](#supplied-processing-scripts)
 - [Visualization](#visualization)
+- [Notes on usage](#-Notes-on-usage)
 
 ## Introduction
 
