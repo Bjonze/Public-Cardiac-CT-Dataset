@@ -11,6 +11,8 @@ Proceedings STACOM.
 MICCAI workshop on The Statistical Atlases and Computational Modeling of the Heart
 Springer 2025
 
+The article can be found here: https://arxiv.org/abs/2510.06090
+
 The main page for the dataset is:
 https://github.com/Bjonze/Public-Cardiac-CT-Dataset
 
