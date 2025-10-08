@@ -1,7 +1,7 @@
 # STACOM2025---A-Public-Cardiac-CT-Dataset-Featuring-the-Left-Atrial-Appendage
 
 Official GitHub repo for the article "A Public Cardiac CT Dataset Featuring the Left Atrial Appendage" published at the [STACOM 2025 MICCAI workshop.](https://stacom.github.io/stacom2025/) 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 <p align="center">
   <img src="assets/LAA_morphologies.png" width="90%" alt="Example LAA morphologies">
@@ -18,7 +18,10 @@ Official GitHub repo for the article "A Public Cardiac CT Dataset Featuring the 
 - [Visualization](#visualization)
 
 ## Introduction
-This is the data described in the publication:
+
+The left atrial appendage (LAA) is a small pouch formed appendage to the left atrium of the heart. It is suspected that many blod clot related strokes originates in the LAA and that the shape of the LAA is one of many factors in the risk of having a stroke. The variation of the shape of the LAA over a population is very large and there is a lot of on-going work in the characterization and classification of LAA shapes. For this purpose, we have made the dataset described here. We hope that it can be used for future stroke risk stratification but also just as an example of naturally occuring human organ shape variation.
+
+The data is described in this publication:
 
 *Bjørn Hansen, Jonas Pedersen, Klaus F. Kofoed, Oscar Camara, Rasmus R. Paulsen and Kristine Sørensen.*
 **A Public Cardiac CT Dataset Featuring the Left Atrial Appendage.**
@@ -124,3 +127,10 @@ Do a simple principal component analysis (PCA) explorative analysis of the compu
   <img src="assets/TS_PV_refined.png" width="48%" alt="…">
 </p>
 <p align="center"><em>Left: TotalSegmentator PV segmentation. Right: Refined PV segmentation.</em></p>
+
+
+## Notes on usage
+
+If you use these data with the original ImageCAS data or the TotalSegmentator derived segmentation, you should also cite the relevant [![GitHub: ImageCAS Repository](https://img.shields.io/badge/GitHub-ImageCAS%20Repository-181717?logo=github&logoColor=white&style=flat)](https://github.com/XiaoweiXu/ImageCAS-A-Large-Scale-Dataset-and-Benchmark-for-Coronary-Artery-Segmentation-based-on-CT) and [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) publications. Please also read the [TotalSegmentator license here](https://backend.totalsegmentator.com/license-academic/) if you consider using the TotalSegmentator derived labels.
+
+
