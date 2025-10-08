@@ -27,6 +27,7 @@ MICCAI workshop on The Statistical Atlases and Computational Modeling of the Hea
 Springer 2025
 
 The article can be found here: [![arXiv](https://img.shields.io/badge/arXiv-2510.06090-b31b1b.svg)](https://arxiv.org/abs/2510.06090)
+
 Please cite this article if you use the data
 
 ## Download
