@@ -20,7 +20,8 @@ Official GitHub repo for the article "A Public Cardiac CT Dataset Featuring the 
 
 ## Introduction
 
-The left atrial appendage (LAA) is a small pouch formed appendage to the left atrium of the heart. It is suspected that many blod clot related strokes originates in the LAA and that the shape of the LAA is one of many factors in the risk of having a stroke. The variation of the shape of the LAA over a population is very large and there is a lot of on-going work in the characterization and classification of LAA shapes. For this purpose, we have made the dataset described here. We hope that it can be used for future stroke risk stratification but also just as an example of naturally occuring human organ shape variation.
+**The left atrial appendage (LAA)** is a small pouch-like extension of the left atrium of the heart. It is suspected that many blood clot-related strokes originate in the LAA, and that the shape of the LAA is one of several factors influencing the risk of stroke. The variation in LAA shape across a population is considerable, and there is ongoing research focused on characterizing and classifying these shapes.
+For this purpose, we have created the dataset described here. We hope it can contribute to future stroke risk stratification, as well as serve as an example of naturally occurring variation in human organ shapes.
 
 The data is described in this publication:
 
