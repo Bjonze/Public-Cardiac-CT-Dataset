@@ -83,10 +83,10 @@ The labelmaps are computed on the entire ImageCAS dataset, but we found that sca
 For each labelmap it is checked if the left atrial appendage touches the side of the scan due to a limited scan field-of-view. There are two file lists with image ids:
 
 - `all_segmentations_id.txt` : Contains the 998 image ids of the computed label maps
-- `all_full_laa_segmentations_id.txt` : Contains the 685 image ids of label maps with complete LAAs (that do not touches the scan side)
+- `all_full_laa_segmentations_id.txt` : Contains the 685 image ids of label maps with complete LAAs (that do not touches the CCTA scan side)
 
 
-<p align="center"> <img src="assets/238.img_visualization.png" width="95%" alt="Multi-view 3D heart and slice overlays"> </p> <p align="center"><em>Example of left atrial appendage outside field of view.</em></p>
+<p align="center"> <img src="assets/238.img_visualization.png" width="95%" alt="Multi-view 3D heart and slice overlays"> </p> <p align="center"><em>Example of left atrial appendage outside field of view of CCTA scan.</em></p>
 
 ## Supplied processing scripts
 
